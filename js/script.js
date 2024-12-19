@@ -136,7 +136,7 @@ var spinner = function() {
 							...a
 						};
 						const d = t(r.length);
-						a.fontSize = r.length > 100 ? d * a.spinnerRadius * .9 : 12;
+						a.fontSize = r.length > 100 ? d * a.spinnerRadius * .9 : 20;
 						const p = o(r, a),
 							u = l(a.patterns),
 							m = n(a),
